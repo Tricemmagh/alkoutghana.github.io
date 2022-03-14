@@ -1,0 +1,263 @@
+/*Social icons*/
+
+.social-icon {
+    color: cyan;
+    float: right;
+    margin: 0;
+    margin-right: 10px;
+    margin-top: -20px;
+}
+
+.social-icon:hover{
+    color: rgb(93, 93, 158);
+    transform: scale(1.3);
+    
+}
+
+ .container #branding img{
+    width: 90px;
+    margin-right: 0;
+    margin-top: -15px;
+    float: left;
+}
+span #al {
+    width: 150px;
+}
+
+
+body {
+    font: 15px/1.5 arial, Helvetica, sans-serif;
+    padding:0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Global */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.button_1{
+    height: 38px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+.dark {
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* header*/
+header {
+    background: #9db2be;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding {
+    float: left;
+}
+header #branding h1 {
+    margin: 0;
+    float: right;
+}
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+header .current a {
+    color: #e8491d;
+    font-weight: bold;
+}
+header a:hover {
+    color: #242f94;
+    font-weight: bold;
+
+}
+/* showcase*/
+#showcase {
+    min-height: 400px;
+    background: url('../img/imported16.jpg')no-repeat;
+    background-position: center;
+    padding-top: 150px;
+    background-size: cover;
+    text-align: center;
+    color: rgb(16, 247, 247);
+    font-family: monospace;
+}
+#showcase h1{
+    margin-top: 20px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    color: rgb(252, 250, 250);
+    font-family: arial;
+    font-weight: bolder;
+}
+
+#showcase p {
+    font-size: 20px;
+    font-family: serif;
+}
+/*updates*/
+#updates {
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a;
+}
+#updates h1{
+    float: left;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+#updates form {
+    float: right; 
+    margin-top: px;
+    margin-right: 100px;
+}
+#updates form [type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+/*Boxes*/
+#boxes {
+    margin-top: 15px;
+}
+
+#boxes .box {
+    float:left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img {
+    width: 90px;
+}
+/*asidebar*/
+aside#sidebar {
+    float:right;
+    width: 300px;
+    margin-top: 10px;
+}
+aside#asidebar .details input, aside#sidebar .details textarea {
+    width: 90%;
+    padding: 5px;
+}
+/*main-col*/
+article#main-col {
+    float: left;
+    width: 65%;
+}
+article.info#main-col {
+    width: 500px;
+} 
+ /*services*/
+ ul#services li{
+list-style: none;
+padding: 20px;
+border: #cccccc solid 1px;
+margin-bottom: 5px;
+background: #e6e6e6;
+ }
+ ul#services #info {
+     font-size: 15px;
+     text-decoration: none;
+ }
+ ul#services #info p {
+     font-size: 20px;
+     color: rgb(55, 6, 100);
+ }
+
+ footer {
+     background-color: #e8491d;
+     padding: 5px;
+     color: #ffffff;
+     text-align: center;
+ }
+ footer a {
+     float: right;
+     margin-top: -20px;
+     color: black;
+     text-decoration: none;
+     font-weight: bold;
+ }
+ footer a:hover {
+     transform: scale(1.0);
+     color: blanchedalmond;
+     font-weight: bold;
+ }
+ #down {
+     background-color: black;
+    margin-top: 15px;
+    color: blanchedalmond;
+}
+
+#down .box {
+    float:left;
+    text-align: center;
+    width: 22%;
+    padding: 10px;
+}
+ /*about images*/
+ section .images img {
+     width: 250px;
+     padding: 5px;
+ }
+ section .imagess {
+   margin-left: 135px;
+ }
+    section #bk {
+    background: dimgrey;
+ }
+ section#mid-about {
+    background-color: #754f44;
+    padding: 0px;
+    color: #ffffff;
+    text-align: center;
+ }
+ /*gallery*/
+    .gallery img {
+    float: none;
+    width: 650px;
+    margin-top: 10px;
+    margin-left: 20px;
+ }
+ .gallery h3 {
+     text-align: center;
+     font-size: 16px;
+     color: rgb(28, 196, 13);
+     font-weight: bolder;
+ }
+ .gallery a:hover {
+    transform: scale(1.4);
+    color: darkorange;
+    font-weight: bolder;
+ }
+ video {
+     width: 440px;
+     margin-top: 5px;
+     margin-left: 5px;
+ }
